@@ -11,6 +11,9 @@ public class Actor
     public Actor parent;
     public List<Actor> children = new();
 
+    public Vector2 position;
+    
+
     public Actor(Actor _parent, string _name){
         this.name = _name;
         this.parent = _parent;
