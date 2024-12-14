@@ -1,0 +1,17 @@
+d:\CodeProjects\Caelum\bin\win-x64\Caelum.exe
+d:\CodeProjects\Caelum\bin\win-x64\Caelum.deps.json
+d:\CodeProjects\Caelum\bin\win-x64\Caelum.runtimeconfig.json
+d:\CodeProjects\Caelum\bin\win-x64\Caelum.dll
+d:\CodeProjects\Caelum\bin\win-x64\Caelum.pdb
+d:\CodeProjects\Caelum\Caelum\obj\Debug\win-x64\Caelum.csproj.AssemblyReference.cache
+d:\CodeProjects\Caelum\Caelum\obj\Debug\win-x64\Caelum.GeneratedMSBuildEditorConfig.editorconfig
+d:\CodeProjects\Caelum\Caelum\obj\Debug\win-x64\Caelum.AssemblyInfoInputs.cache
+d:\CodeProjects\Caelum\Caelum\obj\Debug\win-x64\Caelum.AssemblyInfo.cs
+d:\CodeProjects\Caelum\Caelum\obj\Debug\win-x64\Caelum.csproj.CoreCompileInputs.cache
+d:\CodeProjects\Caelum\Caelum\obj\Debug\win-x64\Caelum.sourcelink.json
+d:\CodeProjects\Caelum\Caelum\obj\Debug\win-x64\Caelum.csproj.Up2Date
+d:\CodeProjects\Caelum\Caelum\obj\Debug\win-x64\Caelum.dll
+d:\CodeProjects\Caelum\Caelum\obj\Debug\win-x64\refint\Caelum.dll
+d:\CodeProjects\Caelum\Caelum\obj\Debug\win-x64\Caelum.pdb
+d:\CodeProjects\Caelum\Caelum\obj\Debug\win-x64\Caelum.genruntimeconfig.cache
+d:\CodeProjects\Caelum\Caelum\obj\Debug\win-x64\ref\Caelum.dll
