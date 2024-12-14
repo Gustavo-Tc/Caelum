@@ -1,9 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
+  
   <!-- dotnet publish -r win-x64 -c Release -->
   <PropertyGroup>
-    
-
     <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RollForward>Major</RollForward>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+  </PropertyGroup>
+
+    <!-- 
+    <PropertyGroup>
+    
+    
+    <OutputType>WinExe</OutputType>
+    
     <TargetFramework>net8.0</TargetFramework>
 
     <ImplicitUsings>enable</ImplicitUsings>
@@ -19,7 +30,7 @@
  <ItemGroup>
     <TrimmerRootAssembly Include="MonoGame.Framework" />
     <TrimmerRootAssembly Include="mscorlib" />
-  </ItemGroup>
+  </ItemGroup> -->
 
   <PropertyGroup>
     <ApplicationIcon>Icon.ico</ApplicationIcon>
@@ -53,4 +64,5 @@
     <Message Text="Restoring dotnet tools" Importance="High" />
     <Exec Command="dotnet tool restore" />
   </Target>
+
 </Project>
