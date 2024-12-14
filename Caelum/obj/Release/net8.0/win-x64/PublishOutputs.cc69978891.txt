@@ -1,0 +1,4 @@
+D:\CodeProjects\Caelum\Caelum\bin\Release\net8.0\win-x64\publish\Caelum.pdb
+D:\CodeProjects\Caelum\Caelum\bin\Release\net8.0\win-x64\publish\soft_oal.dll
+D:\CodeProjects\Caelum\Caelum\bin\Release\net8.0\win-x64\publish\SDL2.dll
+D:\CodeProjects\Caelum\Caelum\bin\Release\net8.0\win-x64\publish\Caelum.exe
