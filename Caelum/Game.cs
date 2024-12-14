@@ -4,12 +4,14 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Caelum;
 
-public class Game1 : Game
+public class GameRuntime : Game
 {
     private GraphicsDeviceManager _graphics;
-    private SpriteBatch _spriteBatch;
+    private SpriteBatch spriteBatch;
 
-    public Game1()
+    private SceneManager sceneManager = new SceneManager();
+
+    public GameRuntime()
     {
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
@@ -18,16 +20,18 @@ public class Game1 : Game
 
     protected override void Initialize()
     {
-        // TODO: Add your initialization logic here
+        this.IsFixedTimeStep = false;
+        sceneManager.Initialize();
+        sceneManager.GetScene().Initialize();
 
         base.Initialize();
     }
 
     protected override void LoadContent()
     {
-        _spriteBatch = new SpriteBatch(GraphicsDevice);
+        spriteBatch = new SpriteBatch(GraphicsDevice);
 
-        // TODO: use this.Content to load your game content here
+        sceneManager.Load();
     }
 
     protected override void Update(GameTime gameTime)
@@ -35,7 +39,8 @@ public class Game1 : Game
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
 
-        // TODO: Add your update logic here
+
+        sceneManager.GetScene().Update(gameTime);
 
         base.Update(gameTime);
     }
@@ -44,7 +49,7 @@ public class Game1 : Game
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
-        // TODO: Add your drawing code here
+        sceneManager.GetScene().Draw(spriteBatch);
 
         base.Draw(gameTime);
     }

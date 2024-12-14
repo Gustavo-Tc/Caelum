@@ -1,2 +1,2 @@
-﻿using var game = new Caelum.Game1();
+﻿using var game = new Caelum.GameRuntime();
 game.Run();
