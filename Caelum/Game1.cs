@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-//OLÁ BUENOS DIAS a
+//OLÁ BUENOS DIAS 
 
 namespace Caelum;
 
