@@ -1,0 +1,57 @@
+<PixlyAnimation version="1.5">
+	<Info sheetWidth="192" sheetHeight="192" totalCollumns="4" totalRows="4" frameWidth="48" frameHeight="48" layerCount="1"/>
+	<Frames length="13">
+		<Frame duration="100" visible="true">
+			<Region x="0" y="0" width="48" height="48"/>
+			<Index linear="0" collumn="0" row="0"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="48" y="0" width="48" height="48"/>
+			<Index linear="1" collumn="1" row="0"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="96" y="0" width="48" height="48"/>
+			<Index linear="2" collumn="2" row="0"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="144" y="0" width="48" height="48"/>
+			<Index linear="3" collumn="3" row="0"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="0" y="48" width="48" height="48"/>
+			<Index linear="4" collumn="0" row="1"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="48" y="48" width="48" height="48"/>
+			<Index linear="5" collumn="1" row="1"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="96" y="48" width="48" height="48"/>
+			<Index linear="6" collumn="2" row="1"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="144" y="48" width="48" height="48"/>
+			<Index linear="7" collumn="3" row="1"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="0" y="96" width="48" height="48"/>
+			<Index linear="8" collumn="0" row="2"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="48" y="96" width="48" height="48"/>
+			<Index linear="9" collumn="1" row="2"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="96" y="96" width="48" height="48"/>
+			<Index linear="10" collumn="2" row="2"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="144" y="96" width="48" height="48"/>
+			<Index linear="11" collumn="3" row="2"/>
+		</Frame>
+		<Frame duration="100" visible="true">
+			<Region x="0" y="144" width="48" height="48"/>
+			<Index linear="12" collumn="0" row="3"/>
+		</Frame>
+	</Frames>
+</PixlyAnimation>
