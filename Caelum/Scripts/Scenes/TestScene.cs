@@ -9,7 +9,6 @@ public class TestScene : Scene
 {
     public override void Initialize()
     {
-        actors.Add(new Player(root));
         base.Initialize();
     }
     public override void Update(GameTime gameTime){

@@ -24,10 +24,10 @@ namespace Caelum
         
         public GameTime _gameTime;
 
-        public Sprite(string texture, Actor actor)
+        public Sprite(string _texture, Actor _actor)
         {
             this.texture = Content.Load<Texture2D>("Sprites/" + texture);
-            this.Actor = actor;
+            this.Actor = _actor;
         }
         public Sprite(string _texture)
         {

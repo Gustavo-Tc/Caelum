@@ -23,6 +23,7 @@ public class GameRuntime : Game
         this.IsFixedTimeStep = false;
         sceneManager.Initialize();
         sceneManager.GetScene().Initialize();
+        Sprite.Content = Content;
 
         base.Initialize();
     }

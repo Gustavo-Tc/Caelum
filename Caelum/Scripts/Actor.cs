@@ -10,8 +10,9 @@ public class Actor
     public string name {get; protected set;}
     public Actor parent;
     public List<Actor> children = new();
-
     public Vector2 position;
+
+    public Sprite sprite;
     
 
     public Actor(Actor _parent, string _name){
@@ -20,25 +21,30 @@ public class Actor
         _parent.children.Add(this);
     }
     public Actor(){
-        this.name = "root";
+        this.name = "none";
         this.parent = null;
     }
 
     public virtual void Initialize(){
-        for(int i = 0; i < children.Count; i++){
-            children[i].Initialize();
-        }
+
+    }
+
+    public virtual void Load(){
+        sprite = new Sprite(name);       
     }
 
     public virtual void Update(GameTime gameTime){
-        for(int i = 0; i < children.Count; i++){
-            children[i].Update(gameTime);
-        }
+
     }
 
     public virtual void Draw(SpriteBatch spriteBatch){
-        for(int i = 0; i < children.Count; i++){
-            children[i].Draw(spriteBatch);
+        sprite.Draw(spriteBatch);
+    }
+
+    public Vector2 GetWorldPosition(){
+        if(parent != null){
+            return this.position + parent.position;
         }
+        return this.position;
     }
 }
